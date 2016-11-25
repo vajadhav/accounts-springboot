@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.bluemix:bluemix-cloud-connectors-cloudfoundry:0.0.1.RC6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bluemix/bluemix-cloud-connectors-cloudfoundry/0.0.1.RC6/2f64bf5260e32e1340f2625fe0f5f1f4cf741b92/bluemix-cloud-connectors-cloudfoundry-0.0.1.RC6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bluemix/bluemix-cloud-connectors-cloudfoundry/0.0.1.RC6/4d2a73da88aabc0b1ef32613700fb93703539bfb/bluemix-cloud-connectors-cloudfoundry-0.0.1.RC6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
