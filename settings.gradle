@@ -16,4 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'accounts-spring-boot-example'
+rootProject.name = 'cloudant-spring-boot-example'

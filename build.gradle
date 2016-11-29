@@ -34,7 +34,7 @@ task dockerImage(type: Docker, dependsOn: build) {
 }
 
 jar {
-	baseName = 'accounts-spring-boot-example'
+	baseName = 'cloudant-spring-boot-example'
 	version = '0.0.1'
 }
 sourceCompatibility = 1.8
@@ -46,13 +46,15 @@ repositories {
 
 
 dependencies {
-	//compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.cloud:spring-cloud-spring-service-connector')
 	compile('net.bluemix:bluemix-cloud-connectors-cloudfoundry:0.0.1.RC6')
 	compile('net.bluemix:bluemix-cloud-connectors-local:0.0.1.RC6')
 	compile('io.springfox:springfox-swagger2:2.4.0')
 	compile('io.springfox:springfox-swagger-ui:2.4.0')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
-
+    compile group: 'info.cukes', name: 'cucumber-core', version: '1.2.2'
+	compile group: 'info.cukes', name: 'cucumber-java', version: '1.2.2'
+    compile group: 'info.cukes', name: 'cucumber-junit', version: '1.2.2'
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile 'junit:junit:4.11'
 }
